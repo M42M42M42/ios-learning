@@ -14,6 +14,11 @@
 		F4BDEAD027EC17080005AE5C /* assignment1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BDEACF27EC17080005AE5C /* assignment1Tests.swift */; };
 		F4BDEADA27EC17080005AE5C /* assignment1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BDEAD927EC17080005AE5C /* assignment1UITests.swift */; };
 		F4BDEADC27EC17080005AE5C /* assignment1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BDEADB27EC17080005AE5C /* assignment1UITestsLaunchTests.swift */; };
+		F4BDEAF227EC3FD60005AE5C /* ViewA.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BDEAF127EC3FD60005AE5C /* ViewA.swift */; };
+		F4BDEAF427EC3FE00005AE5C /* ViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BDEAF327EC3FE00005AE5C /* ViewB.swift */; };
+		F4BDEAF627EC44130005AE5C /* ViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BDEAF527EC44130005AE5C /* ViewC.swift */; };
+		F4BDEAF827EC44190005AE5C /* ViewD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BDEAF727EC44190005AE5C /* ViewD.swift */; };
+		F4BDEAFA27EC4B720005AE5C /* ViewFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BDEAF927EC4B720005AE5C /* ViewFriends.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		F4BDEAD527EC17080005AE5C /* assignment1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = assignment1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4BDEAD927EC17080005AE5C /* assignment1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment1UITests.swift; sourceTree = "<group>"; };
 		F4BDEADB27EC17080005AE5C /* assignment1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4BDEAF127EC3FD60005AE5C /* ViewA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewA.swift; sourceTree = "<group>"; };
+		F4BDEAF327EC3FE00005AE5C /* ViewB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewB.swift; sourceTree = "<group>"; };
+		F4BDEAF527EC44130005AE5C /* ViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewC.swift; sourceTree = "<group>"; };
+		F4BDEAF727EC44190005AE5C /* ViewD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewD.swift; sourceTree = "<group>"; };
+		F4BDEAF927EC4B720005AE5C /* ViewFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFriends.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,7 @@
 		F4BDEABD27EC17070005AE5C /* assignment1 */ = {
 			isa = PBXGroup;
 			children = (
+				F4BDEAE827EC3F4F0005AE5C /* Views */,
 				F4BDEABE27EC17070005AE5C /* assignment1App.swift */,
 				F4BDEAC027EC17070005AE5C /* ContentView.swift */,
 				F4BDEAC227EC17080005AE5C /* Assets.xcassets */,
@@ -125,6 +136,18 @@
 				F4BDEADB27EC17080005AE5C /* assignment1UITestsLaunchTests.swift */,
 			);
 			path = assignment1UITests;
+			sourceTree = "<group>";
+		};
+		F4BDEAE827EC3F4F0005AE5C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4BDEAF127EC3FD60005AE5C /* ViewA.swift */,
+				F4BDEAF327EC3FE00005AE5C /* ViewB.swift */,
+				F4BDEAF527EC44130005AE5C /* ViewC.swift */,
+				F4BDEAF727EC44190005AE5C /* ViewD.swift */,
+				F4BDEAF927EC4B720005AE5C /* ViewFriends.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4BDEAC127EC17070005AE5C /* ContentView.swift in Sources */,
+				F4BDEAF827EC44190005AE5C /* ViewD.swift in Sources */,
+				F4BDEAF227EC3FD60005AE5C /* ViewA.swift in Sources */,
+				F4BDEAF627EC44130005AE5C /* ViewC.swift in Sources */,
+				F4BDEAFA27EC4B720005AE5C /* ViewFriends.swift in Sources */,
 				F4BDEABF27EC17070005AE5C /* assignment1App.swift in Sources */,
+				F4BDEAF427EC3FE00005AE5C /* ViewB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
